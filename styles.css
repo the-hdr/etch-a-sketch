@@ -1,0 +1,43 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+
+    color: rgb(0, 255, 0);
+    background-color: black;
+}
+
+#drawing-board
+{
+    height: 800px;
+    width: 800px;
+
+    background-color: white;
+
+    border: 10px solid rgb(0, 255, 0);
+}
+
+#main-heading
+{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 2rem;
+}
+
+#drawing-board
+{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#drawing-board div {
+    width: 3.125px;
+    height: 3.125px;
+
+    /* text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
