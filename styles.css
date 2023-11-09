@@ -9,8 +9,8 @@ body
 
 #drawing-board
 {
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
 
     background-color: white;
 
@@ -32,8 +32,8 @@ body
 }
 
 #drawing-board div {
-    width: 3.125px;
-    height: 3.125px;
+    width: 1.5625px;
+    height: 1.5625px;
 
     /* text */
     font-size: 30px;
